@@ -1,0 +1,11 @@
+#avatar{
+  height: 200px;
+  width: 200px;
+  padding: 10px;
+}
+#avatarWrapper{
+  padding-top: 5vh;
+}
+.fab, .fas{
+  padding-right: 15px;
+}
