@@ -2,7 +2,7 @@
   "name": "github_portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://tellefsonjr.github.io/",
+  "homepage": "https://tellefsonjr.github.io/portfolio",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.6.3",
