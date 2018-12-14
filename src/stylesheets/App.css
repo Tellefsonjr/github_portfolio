@@ -11,4 +11,5 @@ body{
 .section{
   min-height: 93.2vh;
   width: 100vw;
+  margin: 0;
 }

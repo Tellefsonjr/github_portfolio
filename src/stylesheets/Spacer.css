@@ -1,0 +1,7 @@
+.spacer{
+  height: 50vh;
+  background: url("../images/placeholder.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}

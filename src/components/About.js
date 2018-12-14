@@ -4,13 +4,16 @@ import "../stylesheets/About.css"
 /**
  * Home
  */
+
+// TO DO: Use Context API to adjust dark theme and color
+
 export class About extends Component {
   render() {
     return (
-      <div className="section">
-        <div id="avatarWrapper">
-          <img id="avatar" src={avatar} className="img-fluid rounded-circle mx-auto d-block" alt="Avatar" />
-          <div className="text-center text-light">
+      <div className="section row justify-content-center">
+        <div id="avatarWrapper" className="col-lg-3 col-xs-10">
+        <div className="text-center text-light">
+          <img id="avatar" src={avatar} className="img-fluid rounded-circle" alt="Avatar" />
             <h3 className="display-4"> Tim Ellefson </h3>
             <h3 className="lead"><small> Full Stack Dev | API Enthusiast | Music Lover </small></h3>
             <a href="/" ><span className="fab fa-github" /> </a>

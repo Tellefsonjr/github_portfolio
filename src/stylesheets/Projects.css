@@ -1,0 +1,17 @@
+#projectSection{
+  background-color: white;
+  width: 100vw;
+}
+
+.card-body {
+    min-height: 300px;
+    min-width: 300px;
+    margin-right: 5px;
+}
+@media (max-width: 575.98px) {
+  .card-scroll-container{
+    overflow-x: scroll;
+
+  }
+
+}

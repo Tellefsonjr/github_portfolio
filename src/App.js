@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Root } from "./components/Root";
 import { About } from "./components/About";
 import { Projects } from "./components/Projects";
+import { Spacer } from "./components/Spacer";
 import { Contact } from "./components/Contact";
 
 //import logo from './logo.svg';
@@ -13,6 +14,7 @@ class App extends Component {
       <Root>
         <About />
         <Projects />
+        <Spacer />
         <Contact />
       </Root>
     );

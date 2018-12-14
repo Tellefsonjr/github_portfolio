@@ -4,6 +4,7 @@
   padding: 10px;
 }
 #avatarWrapper{
+  border-radius: 10px;
   padding-top: 5vh;
 }
 
@@ -12,5 +13,5 @@
   padding-top: 10px;
   text-decoration: none;
   color: #f8f9fa;
-  font-size: 30px;
+  font-size: 45px;
 }
