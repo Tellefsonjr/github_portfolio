@@ -10,7 +10,7 @@ import "../stylesheets/About.css"
 export class About extends Component {
   render() {
     return (
-      <div className="section row justify-content-center">
+      <div id="aboutSection" className="section row justify-content-center" ref={this.props.refProp} data-spy="scroll" data-target="navbar" data-offset="0">
         <div id="avatarWrapper" className="col-lg-3 col-xs-10">
         <div className="text-center text-light">
           <img id="avatar" src={avatar} className="img-fluid rounded-circle" alt="Avatar" />

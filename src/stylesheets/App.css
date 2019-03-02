@@ -1,15 +1,15 @@
 body{
   background: url("../images/preview.jpg");
+  background-attachment: fixed;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
 }
 #bodyContainer{
   margin-top: 56px;
   padding-top: 10px;
 }
 .section{
-  min-height: 93.2vh;
   width: 100vw;
   margin: 0;
 }

@@ -9,10 +9,14 @@ import { Contact } from "./components/Contact";
 import './stylesheets/App.css';
 
 class App extends Component {
+  constructor(props){    // Optional, declare a class field
+        super(props)
+  }
+
   render() {
     return (
       <Root>
-        <About />
+        <About refProp={ this.myRef }/>
         <Projects />
         <Spacer />
         <Contact />

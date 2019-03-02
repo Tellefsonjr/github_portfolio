@@ -1,5 +1,9 @@
 #contactSection{
   background-color: white;
-  height: 75vh;
-  padding: 20px;
+  padding: 25px;
+  min-height: 25vh;
+}
+.fa-envelope:hover{
+  cursor: pointer;
+  color: #007bff !important;
 }
