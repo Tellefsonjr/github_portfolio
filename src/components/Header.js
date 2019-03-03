@@ -6,7 +6,7 @@ import React, { Component, PropTypes } from 'react';
 export class Header extends Component {
   scrollTo(e){
     console.log(e);
-    $('body').scrollTo('#'+e);
+    // $('body').scrollTo('#'+e);
   }
 
   render() {
