@@ -5,7 +5,8 @@ import React, { Component, PropTypes } from 'react';
  */
 export class Header extends Component {
   scrollTo(e){
-      console.log(e);
+    console.log(e);
+    $('body').scrollTo('#'+e);
   }
 
   render() {
@@ -19,7 +20,7 @@ export class Header extends Component {
 
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mr-auto mx-auto">
-              <li className="nav-item active" onClick={this.scrollTo()}>
+              <li className="nav-item active" onClick={this.scrollTo("aboutSection")}>
                 <span className="nav-link" href="/">About<span className="sr-only">(current)</span></span>
               </li>
               <li className="nav-item">

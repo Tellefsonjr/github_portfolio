@@ -44,7 +44,7 @@ export class Contact extends Component { // eslint-disable-line react/prefer-sta
               <button type="submit" className="btn btn-default float-right">Submit</button>
             </form>
             <div className="col-12 float-right">
-              <span class="fas fa-envelope text-dark" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample"></span>
+              <span className="fas fa-envelope text-dark" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample"></span>
             </div>
 
         </div>
