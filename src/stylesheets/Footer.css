@@ -1,0 +1,24 @@
+#footerSection{
+  background-color: white;
+  padding: 10px;
+  min-height: 5vh;
+}
+@media (max-width: 575.98px) {
+  #footerSection{
+    height: 8vh;
+    padding: 0px;
+  }
+  #footerSection .fab, #footerSection .fas{
+    padding-top:5px;
+    font-size: 40px;
+  }
+}
+#footerSection .fab, #footerSection .fas{
+  padding-right: 15px;
+  text-decoration: none;
+  color: #343a40;
+  font-size: 45px;
+}
+#footerSection .fab:hover, #footerSection .fas:hover{
+  color: #007bff !important;
+}

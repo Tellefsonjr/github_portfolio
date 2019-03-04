@@ -1,7 +1,7 @@
 body{
   background: url("../images/preview.jpg");
   background-attachment: fixed;
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
 }
