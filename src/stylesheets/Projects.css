@@ -3,18 +3,34 @@
   width: 100vw;
   padding-bottom: 5vh;
 }
-.card-scroll-container{
+#projectSection .fas{
+  font-size: 17px;
+  padding: 0 3px;
 }
-
+.card-scroll-container{
+  min-height: 77.5vh;
+  max-height: 80vh;
+}
+.badge-pill{
+  padding: .3em .8em;
+}
+.badge-danger{
+  background-color: rgb(125, 20, 34);
+}
+.badge-primary{
+  background-color: rgb(6, 84, 148);
+}
 .card-body {
-    min-height: 300px;
     min-width: 300px;
-    margin: 0 50px;
+    margin: 0 50px 0 15px;
 }
 @media (max-width: 575.98px) {
+  #projectSection{
+    padding-bottom: 1vh;
+  }
   .card-scroll-container{
     overflow-x: scroll;
-
+    max-height: 300px;
   }
   .card-body {
       min-height: 300px;

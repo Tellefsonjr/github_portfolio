@@ -4,6 +4,10 @@
   padding: 25px;
   min-height: 25vh;
 }
+#contactSection .fa-envelope{
+  font-size: 45px;
+  padding-top: 15px;
+}
 .fa-envelope:hover{
   cursor: pointer;
   color: #007bff !important;

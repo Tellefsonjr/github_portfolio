@@ -11,7 +11,7 @@
   padding-top: 5vh;
 }
 
-.fab, .fas{
+#aboutSection .fab, #aboutSection .fas{
   padding-right: 15px;
   padding-top: 10px;
   text-decoration: none;

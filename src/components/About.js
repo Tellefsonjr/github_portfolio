@@ -16,8 +16,8 @@ export class About extends Component {
           <img id="avatar" src={avatar} className="img-fluid rounded-circle" alt="Avatar" />
             <h3 className="display-4"> Tim Ellefson </h3>
             <h3 className="lead"><small> Full Stack Dev | API Enthusiast | Music Lover </small></h3>
-            <a href="/" ><span className="fab fa-github" /> </a>
-            <a href="/" ><span className="fab fa-linkedin" /> </a>
+            <a href="https://github.com/Tellefsonjr" ><span className="fab fa-github" /> </a>
+            <a href="https://www.linkedin.com/in/timmeyellefson" ><span className="fab fa-linkedin" /> </a>
             <a href="/" ><span className="fas fa-file-download" /> </a>
           </div>
 
