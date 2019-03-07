@@ -20,11 +20,11 @@ export class Projects extends Component {
 
         <div className = "card-scroll-container d-flex flex-row flex-nowrap" >
           <div className="card card-body">
-            <p className="card-text"><span className="badge badge-pill badge-danger">Ruby</span> <span className="badge badge-pill badge-primary">React</span></p>
+          <h4 className="card-title">Project 1</h4>
             <img className="card-img-top" src={image} alt="Card cap" />
             <div className="card-block">
-              <h4 className="card-title">Project 1</h4>
-              <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p className="card-text"><span className="badge badge-pill badge-danger">Ruby</span> <span className="badge badge-pill badge-primary">React</span></p>
+            <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <div className="float-right">
                 <a href="/" className=""> <span className="fas fa-link"></span></a>
                 <a href="/" className=""> <span className="fas fa-code"></span></a>
@@ -35,10 +35,10 @@ export class Projects extends Component {
             </div>
           </div>
           <div className="card card-body">
-            <p className="card-text"><span className="badge badge-pill badge-danger">Ruby</span> <span className="badge badge-pill badge-primary">React</span></p>
+            <h4 className="card-title">Project 2</h4>
             <img className="card-img-top" src={image} alt="Card cap" />
             <div className="card-block">
-              <h4 className="card-title">Project 2</h4>
+              <p className="card-text"><span className="badge badge-pill badge-danger">Ruby</span> <span className="badge badge-pill badge-primary">React</span></p>
               <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <div className="float-right">
                 <a href="/" className=""><span className="fas fa-link"></span></a>
@@ -50,10 +50,10 @@ export class Projects extends Component {
             </div>
           </div>
           <div className="card card-body">
-            <p className="card-text"><span className="badge badge-pill badge-danger">Ruby</span> <span className="badge badge-pill badge-primary">React</span></p>
+            <h4 className="card-title">Project 3</h4>
             <img className="card-img-top" src={image} alt="Card cap" />
             <div className="card-block">
-              <h4 className="card-title">Project 3</h4>
+              <p className="card-text"><span className="badge badge-pill badge-danger">Ruby</span> <span className="badge badge-pill badge-primary">React</span></p>
               <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <div className="float-right">
                 <a href="/" className=""> <span className="fas fa-link"></span></a>
