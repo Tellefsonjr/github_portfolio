@@ -12,23 +12,23 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/Avatar.630025cb.JPG"
   },
   {
-    "revision": "ee2a100325fd284f0097",
-    "url": "/portfolio/static/js/runtime~main.ee2a1003.js"
+    "revision": "53ebc025fca807d4dbea",
+    "url": "/portfolio/static/js/runtime~main.f308c8e6.js"
   },
   {
-    "revision": "663e1f587b948a8f2f48",
-    "url": "/portfolio/static/js/main.663e1f58.chunk.js"
+    "revision": "03696f3f8cc5e4efc508",
+    "url": "/portfolio/static/js/main.f4427c52.chunk.js"
   },
   {
-    "revision": "82b35fa4921760066ae7",
-    "url": "/portfolio/static/js/1.82b35fa4.chunk.js"
+    "revision": "fc36d7db8e0f1899a889",
+    "url": "/portfolio/static/js/2.48b41de5.chunk.js"
   },
   {
-    "revision": "663e1f587b948a8f2f48",
-    "url": "/portfolio/static/css/main.0b98569f.chunk.css"
+    "revision": "03696f3f8cc5e4efc508",
+    "url": "/portfolio/static/css/main.7a9aae9e.chunk.css"
   },
   {
-    "revision": "364fbd4a194ae04853350624a517d17d",
+    "revision": "a923512e0b02a54b9f0fcf791e4d4d76",
     "url": "/portfolio/index.html"
   }
 ];
