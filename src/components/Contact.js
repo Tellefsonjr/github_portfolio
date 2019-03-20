@@ -34,7 +34,7 @@ export class Contact extends Component { // eslint-disable-line react/prefer-sta
       }
     }
 
-    axios.post('https://docs.google.com/forms/d/e/1FAIpQLSflLheMadf-AJO4m9rg0FdFJIkrelvJiKDPhskbZYHzwleSng/formResponse?', data, config)
+    axios.post('https://docs.google.com/forms/d/e/1FAIpQLSflLheMadf-AJO4m9rg0FdFJIkrelvJiKDPhskbZYHzwleSng/formResponse', data, config)
       .then( res => {
           this.setState({ sent: true }, this.resetForm())
       })
