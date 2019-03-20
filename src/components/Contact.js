@@ -21,13 +21,20 @@ export class Contact extends Component { // eslint-disable-line react/prefer-sta
     this.setState({
       buttonText: 'Sending...'
     });
-
+//url: https://docs.google.com/forms/d/e/1FAIpQLSflLheMadf-AJO4m9rg0FdFJIkrelvJiKDPhskbZYHzwleSng/viewform?usp=pp_url&entry.1097062134=bogusName&entry.1615728613=email@domain.com&entry.955513771=bogusMessage
     let data = {
-      name: this.state.name,
-      email: this.state.email,
-      message: this.state.message
+      "entry.1097062134": this.state.name,
+      "entry.1615728613": this.state.email,
+      "entry.955513771": this.state.message
     };
-    axios.post('API_URI', data)
+    const config = {
+      headers: {
+        'Access-Control-Allow-Origin': '*',
+        'Content-Type': 'application/x-www-form-urlencoded'
+      }
+    }
+
+    axios.post('https://docs.google.com/forms/d/e/1FAIpQLSflLheMadf-AJO4m9rg0FdFJIkrelvJiKDPhskbZYHzwleSng/formResponse?', data, config)
       .then( res => {
           this.setState({ sent: true }, this.resetForm())
       })
